@@ -1,0 +1,16 @@
+.footer__link-block{
+  margin: 0 18px 0 0;
+}
+.footer__link-block:nth-last-child(0){
+  margin: 0;
+}
+@media (max-width: 700px){
+  .footer__link-block{
+    margin: 0 0 32px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .footer__link-block:last-of-type{
+    margin: 0;
+}
+}
