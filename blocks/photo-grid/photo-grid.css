@@ -20,6 +20,8 @@
 }
 @media (max-width: 320px){
   .photo-grid{
+    margin-top: 64px;
+    padding: 0 16px;
     grid-gap: 12px;
   }
 }

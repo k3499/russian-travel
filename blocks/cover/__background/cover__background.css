@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  background-position: center;
 }
 .cover__background::before{
   background: #2A2C2F;
@@ -18,6 +19,6 @@
   height: 100%;
   transition: opacity .45s;
 }
-.cover__background:hover, .cover__background:hover:before {
+.cover__background:hover:before {
   opacity: .8;
 }

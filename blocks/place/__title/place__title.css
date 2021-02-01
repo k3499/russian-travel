@@ -8,18 +8,26 @@
 }
 @media (max-width: 1024px){
   .place__title {
-      font-size: 7vw;
+    font-size: 72px;
+    line-height: 76px;
   }
 }
 @media (max-width: 768px){
   .place__title{
     font-size: 42px;
     line-height: 46px;
-    max-width: 80%;
+    width: 98%;
   }
 }
 @media (max-width: 525px){
   .place__title {
       padding: 0 16px;
+  }
+}
+@media (max-width: 320px){
+  .place__title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

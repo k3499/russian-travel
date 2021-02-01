@@ -4,3 +4,13 @@
   object-fit: contain;
   margin-top: 64px;
 }
+@media (max-width: 1024px){
+  .lead__image{
+    margin-top: 56px;
+  }
+}
+@media (max-width: 350px){
+  .lead__image{
+    margin-top: 40px;
+  }
+}
